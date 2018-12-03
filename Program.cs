@@ -74,7 +74,7 @@ namespace Module4
             else
             {
                 Console.ForegroundColor = ConsoleColor.Red;
-                Console.WriteLine("Only 'yes' or 'no' is alowed.");
+                Console.WriteLine("Only 'yes' or 'no' is allowed.");
                 Console.ForegroundColor = ConsoleColor.White;
                 return false;
             }
