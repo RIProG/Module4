@@ -40,6 +40,9 @@ namespace Module4
             Console.WriteLine();
             Console.ForegroundColor = ConsoleColor.White;
 
+            //TODO: Skapa olika gits i din repository så du inte behöver ha gammal kod som kommentarer i ditt program =) 
+            //-----------------------------------------------------------------------------------------------------------
+
             //string input;
 
             //Console.Write("Enter names separated by comma (e.g. Maria,Peter,Lisa): ");
@@ -83,7 +86,7 @@ namespace Module4
             if (separator.Length > 1)
             {
                 Console.ForegroundColor = ConsoleColor.Red;
-                Console.WriteLine("Separator is only alowed to be 1 character.");
+                Console.WriteLine("Separator is only allowed to be 1 character.");
                 Console.ForegroundColor = ConsoleColor.White;
                 return (false, separator);
 
